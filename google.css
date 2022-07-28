@@ -10,38 +10,66 @@
     display: flex;
     justify-content: center;
 }
+
 .boxes{
     display: flex;
     flex-direction: row;
     width: 1200px;
-    height: 80px;
+    height: 76px;
     margin: 2px auto;
-    
+   
 }
 .box1{
     width: 37%;
     margin-right: 2px;
     background-color: #7EE5DA;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 
 }
+
+
 .box2{
     width: 20%;
     margin-right: 2px;
     background-color: #6fd8cd;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     font-size: smaller;
+    /*line-height: 20px;*/
   
 }
 .box3{
     width: 43%;
     background-color:#62B3AA;
-    
+    font-size: smaller;
+    text-align: center;
 
 
 }
+.center{
+    position: absolute;
+    padding-top: 5px;
+    
+    height: 76px;
+    text-align: center;
+}
+.center2{
+    position: absolute;
+    padding-top: 9px;
+    height: 76px;
+    text-align: center;
+}
 
 
+::placeholder{
+    color: black;
+}
+#subscribe{
+    margin-right: 7px;
+}
 
 
 /*62B3AA*/
