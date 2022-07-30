@@ -64,7 +64,7 @@
 }
 
 
-::placeholder{
+::placeholder{    /*selected*/
     color: black;
 }
 #subscribe{
